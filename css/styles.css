@@ -1,0 +1,147 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/pattern5.png); 
+	background-repeat: repeat;
+	height: 510px;
+} 
+
+.mitchPic {
+	display: block;
+	border-radius: 10px;
+    border: 3px solid rgb(128,0,32);
+    height: 300px; 
+	width: 300px; 
+	margin-left: auto;
+ 	margin-right: auto;
+	margin-top: 5%;	 	
+}
+
+.contactInfo {
+	position: absolute; 
+ 	display: block;
+ 	align-items: center;
+ 	vertical-align: middle;
+ 	width: 40%;
+	top: 400px; 
+  	margin-bottom: 15%; 
+	left: 30%;  
+	text-align: center;
+/*	background-color: rgb(128,128,128); 
+    background-color: white;*/
+    background-color: rgb(245,245,220);
+	border-radius: 10px;
+}
+
+.nameText {
+	display: block;
+	text-align: center;
+ 	margin-top: 4%;
+ 	font: 400 39px/1.0 'Average', Times, serif;
+ 	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+ 	color: rgb(19,30,122);
+}
+
+.contactText {
+	display: block;
+	text-align: center;
+ /*	margin-top: 1%; */
+ 	font: 400 30px/1.0 'Average', Times, serif;
+ 	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+ 	color: rgb(19,30,122);
+} 
+
+.contactTextBottom {
+	display: block;
+	text-align: center;
+ 	margin-bottom: 4%;  
+ 	font: 400 30px/1.0 'Average', Times, serif;
+ 	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+ 	color: rgb(19,30,122);
+}
+
+.resumeBody {
+	position: absolute; 
+ 	display: block;
+ 	align-items: center;
+ 	width: 72%;
+	top: 600px; 
+ /*	bottom: 15%;*/
+	left: 14%; 
+	text-align: center;
+	background-color: rgb(128,0,32);
+	border-radius: 10px;
+
+}
+ 
+  .categoryLabelTop {
+	display: inline-block; 
+	text-align: center;
+	margin-top: 6%;
+	color: rgb(150,150,150);
+	font-size: 150%;
+}
+ .categoryLabel {
+	display: inline-block; 
+	text-align: center;
+	margin-top: 2%;
+	color: rgb(150,150,150);
+	font-size: 150%;
+}
+
+.paragraphText {
+	margin-top: 0.6%;
+	margin-left: 5%;
+	width: 90%; 
+	text-align: center; 
+	color: rgb(192,192,192);
+	font-size: 130%;
+}
+
+.paragraphTextBottom {
+	margin-top: 0.6%;
+	margin-left: 5%;
+	margin-bottom: 6%;
+	width: 90%; 
+	text-align: center; 
+	color: rgb(192,192,192);
+	font-size: 130%;
+}
+
+.anchor {
+	display: block;
+	font-size: 130%;
+	color: rgb(255,255,0);
+}
+
+@media screen and (max-width: 900px) {
+	.contactInfo {
+		width: 72%;
+		left: 14%;
+	}
+
+	.contactText {
+		font: 400 21px/1.0 'Average', Times, serif;
+	}
+
+	.resumeBody {
+		width: 80%;
+		left: 10%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+		.contactInfo {
+		width: 88%;
+		left: 6%;
+	}
+		.resumeBody {
+		width: 96%;
+		left: 2%;
+	}
+
+}
